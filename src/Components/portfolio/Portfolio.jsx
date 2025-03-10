@@ -9,62 +9,36 @@ import { HiExternalLink } from "react-icons/hi";
 
 const images = [
   {
-    img: "https://drive.google.com/uc?id=15WfzcSU-avFDXy6PNMJrmv33ubPm94Cq",
+    img: "https://drive.google.com/uc?export=view&id=15WfzcSU-avFDXy6PNMJrmv33ubPm94Cq",
     description: "React Portfolio - portfolio website built with React",
     link: "/",
   },
   {
-    img: "https://drive.google.com/uc?id=14zC0WArR9CFAUXWKQpDvwlyulUom2pgs",
+    img: "https://drive.google.com/uc?export=view&id=14zC0WArR9CFAUXWKQpDvwlyulUom2pgs",
     description: "Hospital Management System - A MERN stack web app for managing Hospital activities",
     link: "https://hospital-psi-sandy.vercel.app/",
   },
   {
-    img: "https://drive.google.com/uc?id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
+    img: "https://drive.google.com/uc?export=view&id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
     description: "Jewellery Design - This WebSite are including multiple pages.",
     link: "https://arvind67951.github.io/Jewellery-3/",
   },
   {
-    img: "https://drive.google.com/uc?id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
-    description:
-      "Business Website.",
+    img: "https://drive.google.com/uc?export=view&id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
+    description: "Business Website.",
     link: "https://arvind67951.github.io/Business-web/",
   },
   {
-    img: "https://drive.google.com/uc?id=1v2ENycXwGPUqxoidLcDy7-PLjnWkr__R",
-    description:
-      "Civil-Works-Home ",
+    img: "https://drive.google.com/uc?export=view&id=1v2ENycXwGPUqxoidLcDy7-PLjnWkr__R",
+    description: "Civil-Works-Home",
     link: "https://arvind67951.github.io/Civil-Works-Home/",
   },
   {
-    img: "https://drive.google.com/uc?id=1v2ENycXwGPUqxoidLcDy7-PLjnWkr__R",
-    description:
-      "Zomato Clone",
-    link: "https://arvind67951.github.io/zomato/",
-  },
-  {
-    img: "https://drive.google.com/uc?id=14zC0WArR9CFAUXWKQpDvwlyulUom2pgs",
-    description: "Hospital Management System - A MERN stack web app for managing Hospital activities",
-    link: "https://hospital-psi-sandy.vercel.app/",
-  },
-  {
-    img: "https://drive.google.com/uc?id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
-    description: "Jewellery Design - This WebSite are including multiple pages.",
-    link: "https://arvind67951.github.io/Jewellery-3/",
-  },
-  {
-    img: "https://drive.google.com/uc?id=1OODjXL-XzHLduJXTHWs7xgyS_d9w04zF",
-    description:
-      "Business Website.",
-    link: "https://arvind67951.github.io/Business-web/",
-  },
-  {
-    img: "https://drive.google.com/uc?id=1v2ENycXwGPUqxoidLcDy7-PLjnWkr__R",
-    description:
-      "Zomato Clone",
+    img: "https://drive.google.com/uc?export=view&id=1v2ENycXwGPUqxoidLcDy7-PLjnWkr__R",
+    description: "Zomato Clone",
     link: "https://arvind67951.github.io/zomato/",
   },
 ];
-
 const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
