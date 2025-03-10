@@ -67,15 +67,15 @@ const Portfolio = () => {
             <div className="pcontainer">
               <motion.img
                 className="pimg"
-                src={item.img}
+                src={images.img}
                 alt="Loading Project"
                 whileTap={{ scale: 0.95 }}
               />
               <div className="poverlay">
                 <div className="ptext">
                   <h4>Description</h4>
-                  <p style={{ fontSize: "18px" }}>{item.description}</p>
-                  <a href={item.link} rel="noopener noreferrer" target="_blank">
+                  <p style={{ fontSize: "18px" }}>{images.description}</p>
+                  <a href={images.link} rel="noopener noreferrer" target="_blank">
                     <button className="pdtn">
                       <HiExternalLink />
                     </button>
